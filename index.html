@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+	<title>My Posts</title>
+	<!-- Pre minified/concated CSS -->
+	<link rel="stylesheet" href="dist/sypher.min.css">
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
+</head>
+
+<body>
+	<nav>
+		<h1 class="sp-nav-title">Sypher</h1>
+	</nav>
+	<div class="container sp-article-content">
+		<div class="sp-author-content">
+			<img class="sp-author-img" src="posts/author.jpg" alt="">
+			<p class="sp-author-name"></p>
+			<p class="sp-author-subtitle"></p>
+		</div>
+		<hr />
+		<p class="sp-posts-title">My Posts:</p>
+		<ul class="sp-list-posts"></ul>
+		<div class="container">
+			<div class="row">
+				<div class="eleven columns">
+					<div class="sp-buttons">
+						<button class="button-primary" onclick="Paginator.previousPage()">Previous Page</button>
+						<button class="button-primary" onclick="Paginator.nextPage()">Next Page</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script>
+	var dependencies = ['getAuthor', 'paginator'];
+	</script>
+	<script src="dist/sypher.min.js" defer></script>
+</body>
+
+</html>

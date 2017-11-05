@@ -1,0 +1,129 @@
+/*
+ *	Sypher CSS - A very simple minimalist static blog system.
+ *	Author: WesleyCSJ - wesleyjr10@gmail.com
+ */
+
+/* Navbar */
+nav {
+	float: left;
+	display: block;
+	width: 100%;
+	background-color: transparent;
+	top: 0;
+	margin-bottom: 2em;
+}
+
+nav > h1.sp-nav-title {
+	line-height: normal;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
+	color: #009688;
+	margin: 0.5em;
+	font-size: 2em;
+}
+
+img.sp-author-img {
+	border-radius: 50%;
+	max-width: 8rem;
+	float: left;
+	margin-right: 1em;
+	margin-bottom: 2em;
+}
+
+p.sp-author-name,
+p.sp-author-subtitle {
+	font-family: 'Quicksand', sans-serif;
+	padding: 0;
+	margin: 0 auto;
+}
+
+p.sp-author-name {
+	font-size: 1.3em;
+	color: #444;
+	vertical-align: middle;
+	padding-top: 0.5em;
+}
+
+p.sp-author-subtitle {
+	font-size: 1em;
+	color: #888;
+}
+
+article {
+	clear: left;
+}
+
+.sp-article-content {
+	padding: 1em;
+	display: block;
+	clear: both;
+}
+
+/* Article styling */
+article > h1 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bolder;
+	font-size: 3em;
+}
+
+article > h2, article > p {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 1.5em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+}
+
+article > h2 {
+	font-weight: 200;
+	font-size: 1.5em;
+}
+
+article > p {
+	font-family: 'EB Garamond', serif;
+	font-weight: 100;
+	font-size: 1.5em;
+}
+
+article > h3 {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 600;
+	font-size: 2.8rem;
+	white-space: pre;
+}
+
+.footer-scrollTop {
+	color: #ccc;
+	text-decoration: underline;
+	cursor: pointer;
+}
+/* ul styling */
+article > ul, article > ol {
+	color: #444;
+	text-align: center;
+}
+
+ul > li, ol > li {
+	font-size: 1.5em;
+	font-family: 'EB Garamond', serif; 
+}
+
+.sp-posts-title {
+	font-size: 2em;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+}
+
+.sp-buttons {
+	text-align: center;
+}
+/* img styling */
+article > p > img {
+	max-width: 28rem;
+	display: block;
+	margin: 0 auto;
+}
+
+code {
+	white-space: pre-wrap;
+}
