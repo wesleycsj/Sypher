@@ -93,7 +93,7 @@ It's recommended to create a folder named `images` inside your post folder to pu
 
 `![Text about Image](link_of_your_image "Image's Title")`
 
-**IMPORTANT!** link of your image should be `posts/name_of_your_post_folder/images/name_of_image.png` to appear correctly, if not, the image will not appear.
+**IMPORTANT!** link of your image should be `posts/post_folder/images/name_of_image.png` to appear correctly, if not, the image will not appear.
 
 In this example we have a `welcomePost` folder and a image `logo.png`. Then you should write in your markdown file:
 

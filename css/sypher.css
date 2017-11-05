@@ -65,6 +65,7 @@ article > h1 {
 	font-family: 'Quicksand', sans-serif;
 	font-weight: bolder;
 	font-size: 3em;
+	white-space: pre-wrap;
 }
 
 article > h2, article > p {
@@ -72,6 +73,7 @@ article > h2, article > p {
 	font-size: 1.5em;
 	padding-top: 0.5em;
 	padding-bottom: 0.5em;
+	white-space: pre-wrap;
 }
 
 article > h2 {
@@ -89,7 +91,7 @@ article > h3 {
 	font-family: 'Quicksand', sans-serif;
 	font-weight: 600;
 	font-size: 2.8rem;
-	white-space: pre;
+	white-space: pre-wrap;
 }
 
 .footer-scrollTop {
@@ -125,5 +127,5 @@ article > p > img {
 }
 
 code {
-	white-space: pre-wrap;
+	white-space: pre-line;
 }
