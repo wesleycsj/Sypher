@@ -16,5 +16,7 @@ You want your posts to be read in a smartphone, tablet or desktop? No problem, S
 Need something different? You can fork this project and modify when you want. You won't pay for that(just if you do want).
 
 Author: WesleyCSJ
+
 E-mail: wesleyjr10@gmail.com
+
 Github: [WesleyCSJ](https://github.com/wesleycsj)
